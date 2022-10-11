@@ -307,7 +307,7 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT HW MODS WA",
+"name": "HALO 👋 SAYA BOT SAN MOT",
 "options": [
 {
 "optionName": "KATANYA WA KEBAL"
@@ -322,7 +322,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 },
 {
-"optionName": "SALAM BROTHER BY HW MODS WA"
+"optionName": "SALAM BROTHER BY SAN MOT"
 }
 ],
 "selectableOptionsCount": 5
@@ -361,9 +361,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY HW MODS WA ",
+"message": " BY SAN MOT ",
 "orderTitle": " BUG TROLI ", // 
-"sellerJid": "6281214281312@s.whatsapp.net",
+"sellerJid": "6282114680993@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: m.chat, quoted: doc })
@@ -386,7 +386,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER HW MODS WA`,
+"text": `MY DEVELOPER SAN MOT`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4126,7 +4126,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ Owner : ${botname}
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *NOTE*
 🌷
-contact me Wa.me/6285714170944
+contact me Wa.me/6282114680993
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
 ©Haikal`, contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
